@@ -1,8 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": "astro",
-  "buildCommand": "if [ -z \"$SITE\" ]; then echo 'Chua dat bien SITE trong Vercel Environment Variables'; exit 1; fi; node scripts/run-site.mjs build $SITE && rm -rf vercel-out && cp -r dist/$SITE vercel-out",
-  "outputDirectory": "vercel-out",
-  "installCommand": "npm install",
-  "trailingSlash": true
-}

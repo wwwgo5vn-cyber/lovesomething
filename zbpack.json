@@ -1,4 +1,0 @@
-{
-  "output_dir": "dist/lovesomething",
-  "build_command": "npm run build -- lovesomething"
-}
